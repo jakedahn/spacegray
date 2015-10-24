@@ -422,7 +422,7 @@
         "layer0.texture": "",
         "layer0.tint": [28, 31, 38], // -00
         "layer0.opacity": 1,
-        "content_margin": 4
+        "content_margin": 15
     },
     // Status bar button
     {
@@ -433,7 +433,9 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [79, 91, 102] // 02
+        "color": [180, 180, 180], // 02
+        "font.size": 12,
+        "font.face": "Source Code Pro"
     },
 
 //
